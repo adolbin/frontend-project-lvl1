@@ -26,7 +26,7 @@ while (correctAnswersGiven < correctAnswersToWin && !playerWasWrong) {
     console.log('Correct!');
     correctAnswersGiven += 1;
   } else {
-    console.log('\'yes\' is wrong answer ;(. Correct answer was \'no\'.\nLet\'s try again, Bill!');
+    console.log(`'yes' is wrong answer ;(. Correct answer was 'no'.\nLet's try again, ${playerName}!`);
     playerWasWrong = true;
   }
 }
